@@ -1,12 +1,16 @@
 # Instructions
 
-# Pre-requisites
+Creates an azure resource group with 2 VMs, trusted and unstrusted (public ip). Untrusted_vm exposes public ssh access. Trusted_vm only exposes ssh to only from untrusted_vm.
+
+See terraform file for more info
+
+### Pre-requisites
 
 - Install AZ CLI
-- Install Terraform
+- Install Terraform https://www.terraform.io/
 - Install SSH
 
-# Run
+## Run
 
 `az login`
 
